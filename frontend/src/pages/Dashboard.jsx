@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { Line, Doughnut, Bar } from "react-chartjs-2";
 import {
   Chart as ChartJS, CategoryScale, LinearScale, PointElement,

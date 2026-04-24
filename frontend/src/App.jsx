@@ -1,8 +1,8 @@
+import React, { useState } from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
 import { AuthProvider, useAuth } from "./context/AuthContext";
 import Dashboard from "./pages/Dashboard";
-import { useState } from "react";
 
 function ProtectedRoute({ children }) {
   const { user, loading } = useAuth();
@@ -35,7 +35,7 @@ function LoginPage() {
   };
 
   return (
-    <div style={{ background: "#020817", minHeight: "100vh", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "'DM Mono', monospace" }}>
+    <div style={{ background: "#020817", minHeight: "100vh", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "monospace" }}>
       <div style={{ background: "#0f172a", border: "1px solid #1e293b", borderRadius: "16px", padding: "40px", width: "360px" }}>
         <h1 style={{ color: "#38bdf8", margin: "0 0 8px", fontSize: "24px", fontWeight: 700 }}>⚡ FMWP</h1>
         <p style={{ color: "#64748b", margin: "0 0 32px", fontSize: "13px" }}>Finance Management Platform</p>
