@@ -151,6 +151,17 @@ detector.fit(historical_transactions)
 is_anomaly, score = detector.predict(new_transaction)
 ```
 
+## Backend:
+
+<img width="1920" height="1080" alt="Screenshot 2026-04-23 235330" src="https://github.com/user-attachments/assets/e1f64242-8112-40d5-98ae-4d2a526fe140" />
+<img width="1920" height="1080" alt="Screenshot 2026-04-23 235538" src="https://github.com/user-attachments/assets/c1ab1ebf-8b31-40e2-88aa-58d5ce12f864" />
+<img width="1920" height="1080" alt="Screenshot 2026-04-23 235549" src="https://github.com/user-attachments/assets/919d47a0-1362-47ac-8566-6d0dc18b92af" />
+
+## Frontend
+
+<img width="1920" height="1080" alt="Screenshot 2026-04-24 121742" src="https://github.com/user-attachments/assets/d0651f34-035e-4df4-854b-35be7da49b8c" />
+<img width="1920" height="1080" alt="Screenshot 2026-04-24 121943" src="https://github.com/user-attachments/assets/80843c74-2a07-4517-8adf-7065aec87e48" />
+
 ---
 
 ## Running Tests
